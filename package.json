@@ -1,0 +1,25 @@
+{
+    "name": "create-zenith-plugin",
+    "version": "0.1.0",
+    "description": "Standalone CLI to create Zenith plugins",
+    "type": "module",
+    "bin": {
+        "create-zenith-plugin": "dist/cli.js"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "bun build src/index.ts --outdir dist --target node --format esm && cp dist/index.js dist/cli.js && chmod +x dist/cli.js",
+        "dev": "bun src/index.ts"
+    },
+    "dependencies": {
+        "@clack/prompts": "^0.11.0",
+        "gradient-string": "^3.0.0",
+        "picocolors": "^1.1.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    }
+}
