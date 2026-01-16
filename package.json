@@ -1,39 +1,39 @@
 {
-    "name": "create-zenith-plugin",
-    "version": "0.1.0",
-    "description": "Standalone CLI to create Zenith plugins",
-    "type": "module",
-    "bin": {
-        "create-zenith-plugin": "dist/cli.js"
-    },
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "build": "bun build src/index.ts --outdir dist --target node --format esm && cp dist/index.js dist/cli.js && chmod +x dist/cli.js",
-        "dev": "bun src/index.ts",
-        "release": "bun run scripts/release.ts",
-        "release:dry": "bun run scripts/release.ts --dry-run",
-        "release:patch": "bun run scripts/release.ts --bump=patch",
-        "release:minor": "bun run scripts/release.ts --bump=minor",
-        "release:major": "bun run scripts/release.ts --bump=major"
-    },
-    "dependencies": {
-        "@clack/prompts": "^0.11.0",
-        "gradient-string": "^3.0.0",
-        "picocolors": "^1.1.1"
-    },
-    "devDependencies": {
-        "@types/node": "^20.0.0",
-        "typescript": "^5.0.0"
-    },
-    "publishConfig": {
-        "access": "public"
-    },
-    "private": false,
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/zenithbuild/create-zenith-plugin.git"
-    }
+  "name": "create-zenith-plugin",
+  "version": "0.1.1",
+  "description": "Standalone CLI to create Zenith plugins",
+  "type": "module",
+  "bin": {
+    "create-zenith-plugin": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node --format esm && cp dist/index.js dist/cli.js && chmod +x dist/cli.js",
+    "dev": "bun src/index.ts",
+    "release": "bun run scripts/release.ts",
+    "release:dry": "bun run scripts/release.ts --dry-run",
+    "release:patch": "bun run scripts/release.ts --bump=patch",
+    "release:minor": "bun run scripts/release.ts --bump=minor",
+    "release:major": "bun run scripts/release.ts --bump=major"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "gradient-string": "^3.0.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenithbuild/create-zenith-plugin.git"
+  }
 }
