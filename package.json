@@ -1,10 +1,10 @@
 {
   "name": "create-zenith-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Standalone CLI to create Zenith plugins",
   "type": "module",
   "bin": {
-    "create-zenith-plugin": "dist/cli.js"
+    "create-zenith-plugin": "./dist/cli.js"
   },
   "files": [
     "dist"

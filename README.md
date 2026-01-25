@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/zenithbuild/zenith/main/assets/logos/logo.png" alt="Zenith Logo" width="160" />
   <h2>The Zero-Friction Zenith Plugin Scaffolder</h2>
   
-  [![npm version](https://img.shields.io/npm/v/create-zenith-plugin.svg?style=for-the-badge&color=3b82f6)](https://www.npmjs.com/package/create-zenith-plugin)
+  [![npm version](https://img.shields.io/npm/v/@zenithbuild/create-zenith-plugin.svg?style=for-the-badge&color=3b82f6)](https://www.npmjs.com/package/@zenithbuild/create-zenith-plugin)
   [![Zenith Ecosystem](https://img.shields.io/badge/Zenith-Project-cyan?style=for-the-badge&logo=zenith)](https://github.com/zenithbuild/zenith)
 </div>
 
@@ -12,7 +12,7 @@
 
 ## 🚀 Overview
 
-**`create-zenith-plugin`** is a lightning-fast, zero-friction CLI designed to jumpstart your Zenith plugin development. Our philosophy is simple: **One step, zero questions.** 
+**`@zenithbuild/create-zenith-plugin`** is a lightning-fast, zero-friction CLI designed to jumpstart your Zenith plugin development. Our philosophy is simple: **One step, zero questions.** 
 
 No more nested directory hell or confusing configuration steps. Just run the command, select a template, and start coding your next breakthrough.
 
@@ -24,12 +24,12 @@ You don't even need to install it globally. Run it directly with your favorite p
 
 ### Using Bun (Recommended)
 ```bash
-bunx create-zenith-plugin <plugin-name>
+bunx @zenithbuild/create-zenith-plugin <plugin-name>
 ```
 
 ### Using npx
 ```bash
-npx create-zenith-plugin <plugin-name>
+npx @zenithbuild/create-zenith-plugin <plugin-name>
 ```
 
 ---
@@ -46,7 +46,7 @@ npx create-zenith-plugin <plugin-name>
 
 ## 📂 Generated Structure
 
-When you run `create-zenith-plugin my-plugin`, you get:
+When you run `npx @zenithbuild/create-zenith-plugin my-plugin`, you get:
 
 ```text
 my-plugin/
@@ -77,7 +77,7 @@ Coming Soon!
 ## 🩺 Troubleshooting
 
 **Q: Command not found?**  
-A: Ensure you are using `bunx` or `npx`. If you want it globally, run `npm install -g create-zenith-plugin`.
+A: Ensure you are using `bunx` or `npx`. If you want it globally, run `npm install -g @zenithbuild/create-zenith-plugin`.
 
 **Q: Directory already exists?**  
 A: The CLI will prompt you to overwrite. Use `--overwrite` to skip the prompt.

@@ -1,5 +1,5 @@
 export const templates = {
-  index: (name: string, template: string) => `import { ZenithPlugin } from "@zenith/core";
+  index: (name: string, template: string) => `import { ZenithPlugin } from "@zenithbuild/core";
 
 export const plugin: ZenithPlugin = {
   name: "${name}",
