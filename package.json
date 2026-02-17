@@ -1,6 +1,6 @@
 {
   "name": "create-zenith-plugin",
-  "version": "1.3.6",
+  "version": "1.4.0",
   "description": "Standalone CLI to create Zenith plugins",
   "type": "module",
   "bin": {
